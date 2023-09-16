@@ -1,0 +1,46 @@
+.player-settings {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    grid-template-rows: repeat(3, auto);
+    column-gap: 5px;
+    row-gap: 10px;
+    width: clamp(10vw, 40vw, 400px);
+    padding: 15px;
+    background-color: $clr3;
+    justify-self: center;
+
+    .nickname {
+        font-family: nunito;
+        font-weight: 700;
+        height: 34px;
+        padding: 2px 10px;
+    }
+
+    .btn {
+        text-shadow: 2px 2px 0 #0000002b;
+        transition: background-color 80ms;
+        border-radius: $border-radius;
+    }
+
+    .btn.play {
+        background-color: $clr1;
+        font-size: 2em;
+        font-weight: 800;
+        height: 54px;
+
+        &:hover {
+            background-color: #38c41c;
+        }
+    }
+
+    .btn.create-prv-room {
+        background-color: $clr2;
+        font-size: 1.2em;
+        font-weight: 700;
+        height: 40px;
+
+        &:hover {
+            background-color: #1671c5;
+        }
+    }
+}

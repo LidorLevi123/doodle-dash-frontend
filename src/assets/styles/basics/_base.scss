@@ -3,18 +3,16 @@
 }
 
 ::selection {
-    background-color: $clr1;
-    color: $clr6;
+    background-color: #4058f6;
+    color: white;
 }
 
 html {
-    font-family: montserrat;
+    font-family: nunito;
     line-height: 1.6;
-    color: $clr2;
 }
 
 body {
-    font-size: rem(18px);
     margin: 0;
     background-image: url("https://skribbl.io/img/background.png");
 }
@@ -26,18 +24,39 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 
-section, main, footer {
+main, footer {
     padding: 5px;
 }
+
+button {
+    font-family: nunito;
+    color: $clr4;
+    border:0;
+    padding: 0;
+    margin: 0;
+    appearance: none;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+input, select {
+    font-size: 1rem;
+}
+
+// form > * {
+//     display: block;
+//     width: 200px;
+//     margin: 10px 0px;
+// }
 
 // img {
 //     width: 100%;
 // }
 
-p {
-    margin: 0 0 1em;
-    max-width: 40ch;
-}
+// p {
+//     margin: 0 0 1em;
+//     max-width: 40ch;
+// }
 
 a {
     text-decoration: none;
