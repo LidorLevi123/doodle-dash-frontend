@@ -9,6 +9,10 @@
     background-color: $clr3;
     justify-self: center;
 
+    > * {
+        width: 100%;
+    }
+
     .nickname {
         font-family: nunito;
         font-weight: 700;

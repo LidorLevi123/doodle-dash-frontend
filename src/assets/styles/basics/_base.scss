@@ -39,8 +39,20 @@ button {
     cursor: pointer;
 }
 
-input, select {
+input, select, textarea {
     font-size: 1rem;
+    font-family: nunito;
+    
+    border-radius: $border-radius;
+    transition: background-color .12s ease,border-color .12s ease;
+    background-color: white;
+
+    &:focus {
+        outline: 0;
+        background-color: $clr_input_hover;
+        border-color: $clr_input_border_focus;
+        box-shadow: 0 0 10px -4px $clr_input_border_focus;
+    }
 }
 
 // form > * {
