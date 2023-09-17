@@ -10,8 +10,8 @@
     grid-template-rows: min-content 48px min-content min-content;
     font-size: em(14px);
 
-    padding-block-start: 1.85em;
-    padding-inline-start: 3.70em;
+    padding-block: 1.85em;
+    padding-inline: 3.70em;
 
     .logo {
         grid-area: logo;
