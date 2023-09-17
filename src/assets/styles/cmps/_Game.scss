@@ -1,0 +1,21 @@
+.game {
+    display: grid;
+    gap: 6px;
+    grid-template-areas: 
+        "logo logo logo" 
+        "bar bar bar" 
+        "players canvas chat" 
+        ". tools .";
+    grid-template-columns: min-content auto auto;
+    grid-template-rows: min-content 48px min-content min-content;
+    font-size: em(14px);
+
+    padding-block-start: 1.85em;
+    padding-inline-start: 3.70em;
+
+    .logo {
+        grid-area: logo;
+        width: 320px;
+        filter: drop-shadow(3px 3px 0 rgba(0, 0, 0, .25));
+    }
+}

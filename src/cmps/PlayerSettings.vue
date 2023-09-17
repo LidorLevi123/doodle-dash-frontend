@@ -6,8 +6,8 @@
             <option value="eng">English</option>
         </select>
 
-        <button class="btn play full">Play!</button>
-        <button class="btn create-prv-room full">Create Private Room</button>
+        <button @click="onPlay()" class="btn play full">Play!</button>
+        <button @click="onCreateRoom()" class="btn create-prv-room full">Create Private Room</button>
     </section>
 </template>
   
@@ -27,6 +27,12 @@ export default {
     },
 
     methods: {
+        onPlay() {
+            console.log('Play!')
+        },
+        onCreateRoom() {
+            this.$emit('create-room')
+        }
     }
 
 }
