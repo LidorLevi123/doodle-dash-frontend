@@ -3,6 +3,7 @@
         <input type="text" class="nickname" placeholder="Enter your name">
         <select name="" id="">
             <option value="heb">Hebrew</option>
+            <option value="eng">English</option>
         </select>
 
         <button class="btn play full">Play!</button>

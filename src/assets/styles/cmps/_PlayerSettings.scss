@@ -4,7 +4,8 @@
     grid-template-rows: repeat(3, auto);
     column-gap: 5px;
     row-gap: 10px;
-    width: clamp(10vw, 40vw, 400px);
+    // width: clamp(10vw, 40vw, 400px);
+    width: 400px;
     padding: 15px;
     background-color: $clr3;
     justify-self: center;

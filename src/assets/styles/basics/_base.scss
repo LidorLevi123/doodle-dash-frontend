@@ -42,10 +42,14 @@ button {
 input, select, textarea {
     font-size: 1rem;
     font-family: nunito;
-    
+
+    border: 1px solid $clr_input_border;
     border-radius: $border-radius;
     transition: background-color .12s ease,border-color .12s ease;
     background-color: white;
+
+    margin: 0;
+    padding: 0;
 
     &:focus {
         outline: 0;
