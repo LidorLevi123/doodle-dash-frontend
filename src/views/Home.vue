@@ -12,11 +12,6 @@ import { utilService } from '../services/util.service.js'
 export default {
     name: 'home',
 
-    data() {
-        return {
-        }
-    },
-
     computed: {
     },
 
@@ -31,8 +26,8 @@ export default {
     },
 
     components: {
-        PlayerSettings
-    }
+    PlayerSettings,
+}
 
 }
 </script>
